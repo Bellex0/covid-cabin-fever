@@ -53,7 +53,7 @@ const App = ({ classes }) => {
       </AppBar>
       <main className={classes.layout}>
         <Typography variant="h2" align="center" style={{ marginTop: 80, fontWeight: "bold" }}>
-        Do You Have Cabin Fever? 
+        Do You Have Cabin Fever? 🏠🤒
         </Typography>
         <Typography
           variant="h5"
