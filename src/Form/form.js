@@ -21,8 +21,8 @@ const styles = theme => ({
     width: "auto",
     marginLeft: theme.spacing(2),
     marginRight: theme.spacing(2),
-    [theme.breakpoints.up(600 + theme.spacing(2) * 2)]: {
-      width: 600,
+    [theme.breakpoints.up(800 + theme.spacing(2) * 2)]: {
+      width: 800,
       marginLeft: "auto",
       marginRight: "auto"
     }
@@ -31,7 +31,7 @@ const styles = theme => ({
     marginTop: theme.spacing(3),
     marginBottom: theme.spacing(3),
     padding: theme.spacing(2),
-    [theme.breakpoints.up(600 + theme.spacing(3) * 2)]: {
+    [theme.breakpoints.up(800 + theme.spacing(3) * 2)]: {
       marginTop: theme.spacing(8),
       marginBottom: theme.spacing(8),
       padding: theme.spacing(3)
@@ -52,11 +52,11 @@ const App = ({ classes }) => {
         </Toolbar>
       </AppBar>
       <main className={classes.layout}>
-        <Typography variant="h3" align="center" style={{ marginTop: 80 }}>
+        <Typography variant="h2" align="center" style={{ marginTop: 80, fontWeight: "bold" }}>
         Do You Have Cabin Fever? 
         </Typography>
         <Typography
-          variant="subtitle2"
+          variant="h5"
           align="center"
           style={{ marginTop: 10, marginBottom: 10 }}
         >
@@ -69,7 +69,7 @@ const App = ({ classes }) => {
         <Typography
           component="p"
           align="center"
-          style={{ margin: "10px 0", fontSize: ".75rem" }}
+          style={{ margin: "10px 0", fontSize: "12px" }}
         >
         
        

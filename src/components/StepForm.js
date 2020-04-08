@@ -61,9 +61,6 @@ const handleChange = (evt, value) => {
               {"energy": energyAnswer},
               {"appetite": appetiteAnswer}
           ]
-
-          // console.log(quesAnswers[2])
-
  
 
   // Proceed to next step
